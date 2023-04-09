@@ -62,14 +62,11 @@
     float: left;
 }
 
-.theatre-item__main_show{
-	margin-top: -40px;
-}
+
 
 .theatre-item__child_show{
     width: 50%;
     float: left;
-    padding-top: 20px;
 }
 
 .theatre-details{

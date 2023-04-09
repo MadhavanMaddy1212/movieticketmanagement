@@ -10,7 +10,7 @@ const Theatreitem = (props) => {
 			<Card className="theatre-item__content row">
 				<div className="theatre-item__main col-12">
 					<div className="theatre-item__child theatre-details">
-						<Avatar src={props.avatar} alt="Sample" height="180px" width="200px"/>
+						<Avatar src={props.avatar} alt="Not Loaded" height="180px" width="200px"/>
 						<div className="theatre-item__name">
 							{props.name}
 						</div>
@@ -21,11 +21,13 @@ const Theatreitem = (props) => {
 								<Show
 									show_name = { props.show1_movie}
 									show_time = { props.show1_time}
+									booked_seats = {props.booked_seats}
 								>
 								</Show>
 								<Show
 									show_name = { props.show3_movie}
 									show_time = { props.show3_time}
+									booked_seats = {props.booked_seats}
 								>8
 								</Show>
 							</div>
@@ -33,11 +35,13 @@ const Theatreitem = (props) => {
 								<Show
 									show_name = { props.show2_movie}
 									show_time = { props.show2_time}
+									booked_seats = {props.booked_seats}
 								>
 								</Show>
 								<Show
 									show_name = { props.show4_movie}
 									show_time = { props.show4_time}
+									booked_seats = {props.booked_seats}
 								>
 								</Show>
 							</div>

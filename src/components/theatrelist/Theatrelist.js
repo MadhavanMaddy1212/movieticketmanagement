@@ -22,6 +22,7 @@ const Theatrelist = (props) => {
 								show3_time = {theatre.show3_time}
 								show4_movie = {theatre.show4_movie}
 								show4_time = {theatre.show4_time}
+								booked_seats ={theatre.booked_seats}
 							>
 							</Theatreitem>
 					)

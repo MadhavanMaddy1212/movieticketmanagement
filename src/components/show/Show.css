@@ -9,3 +9,7 @@
 .show_details:hover{
 	background: yellow;
 }
+
+.button-css{
+	float:right;
+}

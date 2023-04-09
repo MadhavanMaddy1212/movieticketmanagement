@@ -1,0 +1,41 @@
+.seatgreen{
+	height: 35px;
+	width: 35px;
+	border: 2px solid green;
+	margin-top: 5px;
+	cursor:pointer;
+}
+
+.seatred{
+	height: 35px;
+	width: 35px;
+	border: 2px solid red;
+	margin-top: 5px;
+	cursor:pointer;
+}
+
+.seatno{
+	text-align:center;
+	display:block;
+}
+
+.seatgreen:active,
+.seatgreen:hover{
+	border: 2px solid red;
+}
+
+.nohovergreen{
+	height: 35px;
+	width: 35px;
+	border: 2px solid green;
+	margin-top: 5px;
+	cursor:pointer;
+}
+
+.nohoverred{
+	height: 35px;
+	width: 35px;
+	border: 2px solid red;
+	margin-top: 5px;
+	cursor:pointer;
+}
