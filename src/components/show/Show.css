@@ -1,0 +1,11 @@
+.show_details{
+	background: #ffc107;
+	margin-top: 30px;
+	width: 300px;
+
+}
+
+.show_details:active,
+.show_details:hover{
+	background: yellow;
+}

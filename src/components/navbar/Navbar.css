@@ -1,0 +1,17 @@
+.navbar{
+	background-color: black;
+	height: 60px;
+	width: 100vw;
+	position: fixed;
+	top:0;
+	z-index:200;
+	display:flex;
+	align-items:center;
+}
+
+.title{
+	color: white;
+	font-weight: 40;
+	font-size: 30px;
+	margin-left: 30vw;
+}
